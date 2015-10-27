@@ -13,8 +13,7 @@ html layout loader for webpack, with layout-loader, you can use require directly
 - b.html
 
 ```html
-<!-- you can use require directly in html now! -->
-require('layout!html!./a.html')
+<!-- require('layout!html!./a.html') -->
 <div>content for b.html</div>
 
 ```
