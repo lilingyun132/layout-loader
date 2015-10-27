@@ -1,5 +1,5 @@
 # layout-loader
-html layout loader for webpack
+html layout loader for webpack, with layout-loader, you can use require directly in html now!
 
 ## Usage
 
@@ -13,6 +13,7 @@ html layout loader for webpack
 - b.html
 
 ```html
+<!-- you can use require directly in html now! -->
 require('layout!html!./a.html')
 <div>content for b.html</div>
 
