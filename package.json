@@ -1,0 +1,25 @@
+{
+  "name": "layout-loader",
+  "version": "1.0.0",
+  "description": "html layout loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxnow/layout-loader.git"
+  },
+  "keywords": [
+    "html",
+    "layout",
+    "loader",
+    "webpack"
+  ],
+  "author": "fanlia@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxnow/layout-loader/issues"
+  },
+  "homepage": "https://github.com/uxnow/layout-loader#readme"
+}
