@@ -3,13 +3,35 @@ html layout loader for webpack
 
 ## Usage
 
-``` javascript
-var fileContent = require("layout!html!./file.txt");
-// => returns file.txt content as string
+- a.html
+
+```html
+<div>content from a.html</div>
+
 ```
 
-Don't forget to polyfill `require` if you want to use it in node.
-See `webpack` documentation.
+- b.html
+
+```html
+require('layout!html!./a.html')
+<div>content for b.html</div>
+
+```
+
+- js
+
+``` javascript
+var htmlContent = require("layout!html!./b.html");
+// => see result.html
+```
+
+- result.html
+
+```html
+<div>content from a.html</div>
+<div>content for b.html</div>
+```
 
 ## Thanks
 - [raw-loader](https://github.com/webpack/raw-loader)
+- [html-loader](https://github.com/webpack/html-loader)
