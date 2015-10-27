@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/uxnow/layout-loader/issues"
   },
-  "homepage": "https://github.com/uxnow/layout-loader#readme"
+  "homepage": "https://github.com/uxnow/layout-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.11"
+  }
 }

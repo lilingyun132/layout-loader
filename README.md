@@ -21,7 +21,7 @@ html layout loader for webpack, with layout-loader, you can use require directly
 - js
 
 ``` javascript
-var htmlContent = require("layout!html!./b.html");
+var htmlContent = require("layout?l!html!layout?r./b.html");
 // => see result.html
 ```
 
